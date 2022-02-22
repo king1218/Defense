@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quic Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+            W: "#FFFFFF",
+            Y: "#FECC02",
+            B: "#131313",
+            G: "#4E4E4E",
+            P:"#4540DB"
+            
+
+          },
+             fontFamily:{
+              Ub: [ "Supermercado One", "cursive"],
+             
+              S:["Staatliches", "sans-serif"],
+             }
+            }
+          }
+        }
+      </script>
+      <script src="https://kit.fontawesome.com/54eb80a562.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- header -->
+ <header class="w-full font-S h-10  lg:h-420 lg:flex md:flex  justify-center m-3  bg-white">
+<!-- Nav bar -->
+            <nav class="w-4/5 h-full lg:flex md:flex justify-between items-center  ">
+ <!-- Logo -->
+            <h1 class="lg:text-3xl text-xl">Quic <span class="text-P">Solution</span></h1>
+            <ul class=" lg:text-3xl lg:gap-x-8 md:gap-x-4 hidden md:flex">
+<!-- menus -->
+                <li class="lg:text-2xl hover:text-P ">Home<a href=""></a></li>
+                <li class="lg:text-2xl hover:text-P ">Find Jobs<a href=""></a></li>
+                <li class="lg:text-2xl hover:text-P ">Find Candidates<a href=""></a></li>
+                <li class="lg:text-2xl hover:text-P ">Articles<a href=""></a></li>
+            </ul>
+            <div>
+<!-- login and Register button -->
+
+            <button class="lg:text-2xl hover:text-P ">Log in</button>
+            <button class="lg:text-2xl bg-P rounded-md ml-3 text-white px-2 hover:bg-purple-200 hover:text-black transition-all">Register Now</button>
+            </div>
+        </nav>
+    </header>
+
+<!-- main section -->
+
+
+    <main>
+        <section class=" lg:mt-[100px] mt-[100px] font-S">  
+            <div class="text-center ">
+                <h1 class="lg:text-7xl text-4xl">Get The <span class="text-P">Right Job</span></h1>
+                <p class="lg:text-7xl text-4xl">You Deserve</p>
+            
+            </div>
+            <p class="lg:text-xl md:text-xl text-center mt-3 lg:mt-6">786 jobs & 110 candidates are registeresd</p>
+          <div class="lg:flex justify-center items-center  mt-10">
+            <form class=" lg:mt-20 lg:w-8/12 lg:flex md:flex  block justify-center font-sans drop-shadow-xl rounded p-6"  action="">
+                <i class="text-P lg:text-4xl md:text-3xl fa-solid fa-magnifying-glass text-xl"></i>
+                <input type="text" class="lg:text-xl md:text-xl rounded-md p-2 lg:w-3/12 lg:ml-4 md:ml-4" placeholder="Search Title or Keyword"><br><br>
+                <i class=" text-P lg:text-4xl md:text-3xl fa-solid fa-location-dot text-xl lg:ml-3 md:ml-3"></i>
+                <input type="text" class="lg:text-xl  md:text-xl rounded-md  p-2 lg:ml-5 sm:ml-5 ml-1" placeholder="Search Location">
+                <button class="lg:text-3xl bg-P rounded-md ml-3 text-white px-3 hover:bg-purple-200 hover:text-black transition-all font-S ">Search</button>
+            </form>
+          </div>
+          <!-- One Platform
+          Many Solutions -->
+
+
+
+        </section>
+      
+
+
+    
+        <section class="font-S lg:mt-[100px] mt-[100px]">
+          <div class="text-center ">
+            <h1 class="lg:text-7xl text-4xl">One Platform </h1>
+            <p class="lg:text-7xl text-4xl">Many<span class="text-P"> Solutions</span></p>
+        
+        </div>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-x-4 lg:mt-30 lg:gap-x-20 p:5 lg:p-10 mt-10 mx-auto ">
+          <div>
+            <div class="flex rounded-lg drop-shadow-xl hover:bg-P hover:text-white  justify-center items-center lg:py-10 m-4 p-1 bg-slate-100"> <i class="lg:text-4xl text-pink-400 -mt-6 fa-solid fa-bullhorn"></i>
+              <div class="ml-4 ">
+               
+                <div class="lg:text-3xl">
+                  <p>Marketing &</p>
+                  <p>Communication</p>
+                </div>
+                
+                <p class=" text-sm lg:mt-5">237 Jobs Available</p>
+              </div>
+              
+            </div>
+          </div>
+          <div>
+            <div class="flex hover:bg-P hover:text-white  rounded-xl justify-center items-center  drop-shadow-xl lg:py-10 p-1 m-4 bg-slate-100"> <i class="lg:text-4xl text-green-500  -mt-6 fa-solid fa-wand-magic-sparkles"></i>
+              <div class="ml-4 ">
+               
+                <div class="lg:text-3xl">
+                  <p>Design &</p>
+                  <p>Development</p>
+                </div>
+                
+                <p class=" text-sm lg:mt-5">125 Jobs Available</p>
+              </div>
+              
+            </div>
+          </div>
+          <div>
+            <div class="flex rounded-xl hover:bg-P hover:text-white  drop-shadow-xl  justify-center items-center lg:py-10 m-4 p-1 bg-slate-100"> <i class="lg:text-4xl text-purple-400  -mt-6 fa-solid fa-person-biking"></i>
+              <div class="ml-4 ">
+               
+                <div class="lg:text-3xl">
+                  <p>Food &</p>
+                  <p>Delivary</p>
+                </div>
+                
+                <p class=" text-sm lg:mt-5">224 Jobs Available</p>
+              </div>
+              
+            </div>
+          </div>
+          <div>
+            <div class="flex hover:bg-P hover:text-white  rounded-xl drop-shadow-xl lg:py-10 m-4 p-1 justify-center items-center bg-slate-100"> <i class="lg:text-3xl text-yellow-300 -mt-6 fa-solid fa-diagram-project"></i>
+              <div class="ml-4 ">
+               
+                <div class="lg:text-3xl">
+                  <p>Govt. </p>
+                  <p>Project</p>
+                </div>
+            
+                <p class=" text-sm lg:mt-5">237 Jobs Available</p>
+              </div>
+              
+            </div>
+          </div>
+
+
+          <!-- 2nd row -->
+
+          <div>
+            <div class="flex hover:bg-P hover:text-white  rounded-xl drop-shadow-xl lg:py-10 m-4 p-1 justify-center items-center bg-slate-100"> <i class="lg:text-3xl text-cyan-500 -mt-6 fa-solid fa-camera"></i>
+              <div class="ml-4 ">
+               
+                <div class="lg:text-3xl">
+                  <p>Wedding &</p>
+                  <p>Photography</p>
+                </div>
+            
+                <p class=" text-sm lg:mt-5">230 Jobs Available</p>
+              </div>
+              
+            </div>
+          </div>
+          <div>
+            <div class="flex hover:bg-P hover:text-white  rounded-xl drop-shadow-xl lg:py-10 m-4 p-1 justify-center items-center bg-slate-100"> <i class="lg:text-3xl text-blue-500 -mt-6 fa-solid fa-chalkboard-user"></i>
+              <div class="ml-4 ">
+               
+                <div class="lg:text-3xl">
+                  <p>Teaching &</p>
+                  <p>Tutions</p>
+                </div>
+            
+                <p class="text-sm lg:mt-5">134 Jobs Available</p>
+              </div>
+              
+            </div>
+          </div>
+          <div>
+            <div class="flex hover:bg-P hover:text-white  rounded-xl drop-shadow-xl lg:py-10 m-4 p-1 justify-center items-center bg-slate-100"> <i class="lg:text-3xl text-yellow-400 -mt-6 fa-solid fa-headphones-simple"></i>
+              <div class="ml-4 ">
+               
+                <div class="lg:text-3xl">
+                  <p>Calling &</p>
+                  <p>Communication</p>
+                </div>
+            
+                <p class=" text-sm lg:mt-5">145 Jobs Available</p>
+              </div>
+              
+            </div>
+          </div>
+          <div>
+            <div class="flex hover:bg-P hover:text-white  rounded-xl drop-shadow-xl lg:py-10 m-4 p-1 justify-center items-center bg-slate-100"> <i class="lg:text-3xl text-red-500 -mt-6 fa-solid fa-laptop-medical"></i>
+              <div class="ml-4 ">
+               
+                <div class="lg:text-3xl">
+                  <p>Software issu &</p>
+                  <p>Solution</p>
+                </div>
+            
+                <p class=" text-sm lg:mt-5">120 Jobs Available</p>
+              </div>
+              
+            </div>
+          </div>
+         
+        </div>
+     
+      
+        </section>
+
+
+
+
+
+        <!-- Find JoB -->
+
+
+        <section class="font-S mt-10 lg:mt-20 ">
+          <h1 class=" text-center lg:text-7xl text-4xl">Featured <span class="text-P">Job</span> Circulars</h1>
+          <div class="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-3 mt-20 gap-x-4">
+              <!-- circuler 1 -->
+              <div class="m-5 p-5  rounded-md bg-slate-100 drop-shadow-xl">
+                <div>
+                  <div class="flex ">
+                     <img class="w-[50px] h-[50px]" src="image/foodpanda.jpg" alt="">
+                     <div class="ml-3">
+                      <span class="text-3xl">foodpanda</span>
+                      <p class="text-P">Part-time</p>
+                     </div>
+                  </div>
+                  <div>
+                    <p class="text-3xl">Delivary Man</p>
+                    <p>Food panda needs 200 delivery men for food and goods delivery. They provide you with cycles, bags, etc. jobs are very secure.</p>
+                    
+                  </div>
+                  <div class="flex mt-4 justify-between ">
+                    <p class="text-xl text-P">$25/W</p>
+                    <button class="text-xl  rounded-md border-P border-2 text-P hover:bg-P px-2 hover:text-white ">Apply Now</button>
+                  </div>
+                </div>
+              </div> 
+
+
+              <!-- circuler2 -->
+              <div class="m-5 p-5 rounded-md bg-slate-100 drop-shadow-xl">
+                <div>
+                  <div class="flex ">
+                     <img class="w-[50px] h-[50px]" src="image/gp.png" alt="">
+                     <div class="ml-3">
+                      <span class="text-3xl">Grameenphone</span>
+                      <p class="text-P">Part-time</p>
+                     </div>
+                  </div>
+                  <div>
+                    <p class="text-3xl">Call Center</p>
+                    <p>Gp provides you with great part-time jobs for students. 6 hours Duties and you to handle customers calls.</p>
+                    
+                  </div>
+                  <div class="flex mt-4 justify-between ">
+                    <p class="text-xl text-P">$25/W</p>
+                    <button class="text-xl  rounded-md border-P border-2 text-P hover:bg-P px-2 hover:text-white ">Apply Now</button>
+                  </div>
+                </div>
+              </div>
+   <!-- circuler3 -->
+              <div class="m-5 p-5 rounded-md bg-slate-100 drop-shadow-xl">
+                <div>
+                  <div class="flex ">
+                     <img class="w-[50px] h-[50px]" src="image/daraz.png" alt="">
+                     <div class="ml-3">
+                      <span class="text-3xl">Daraz</span>
+                      <p class="text-P">Part-time</p>
+                     </div>
+                  </div>
+                  <div>
+                    <p class="text-3xl">Delivary Man</p>
+                    <p>Daraz needs 140 delivery men for parcels and goods delivery. They provide you with cycles, bags, etc. jobs are very secure.</p>
+                    
+                  </div>
+                  <div class="flex mt-4 justify-between ">
+                    <p class="text-xl text-P">$25/W</p>
+                    <button class="text-xl  rounded-md border-P border-2 text-P hover:bg-P px-2 hover:text-white ">Apply Now</button>
+                  </div>
+                </div>
+              </div>
+
+<!-- circuler4 -->
+              <div class="m-5 p-5 rounded-md bg-slate-100 drop-shadow-xl">
+                <div>
+                  <div class="flex ">
+                     <img class="w-[50px] h-[50px]" src="image/Q.jpg" alt="">
+                     <div class="ml-3">
+                      <span class="text-3xl">Quic Solution</span>
+                      <p class="text-P">Part-time</p>
+                     </div>
+                  </div>
+                  <div>
+                    <p class="text-3xl">Tution</p>
+                    <p>Need tuition? Quick Solution will provide you tuitions in your area. Apply below!!</p>
+                    
+                  </div>
+                  <div class="flex mt-4 justify-between ">
+                    <p class="text-xl text-P">$25/W</p>
+                    <button class="text-xl  rounded-md border-P border-2 text-P hover:bg-P px-2 hover:text-white ">Apply Now</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="text-center"> <button class="lg:text-2xl px-6  rounded-md font-S text-P text-center border-2 border-P  mt-5  hover:bg-P hover:text-white transition-all "> Find More Jobs</button></div>
+        </section>
+
+<!-- CV -->
+
+        <section class="mt-20 flex justify-center font-S ">
+              <div class="grid lg:grid-cols-2 gap-x-5 bg-P p-5 text-white w-10/12 rounded-xl">
+                <div>
+                  <img class="round-xl" src="image/crop.png" alt="">
+
+                </div>
+               <div class="flex justify-center items-center">
+                <div>
+                  <h1 class="lg:text-5xl text-2xl text-center lg:text-start">Get Matched The Most 
+                    <h1 class="lg:text-5xl text-2xl text-center">Valuable Jobs, Just Drop</h1>
+                    <h1 class="lg:text-5xl text-2xl text-center">Your CV at Staffing Solutions</h1>
+                    
+                    <p class="lg:text-xl mt-5 text-center">In the subject line of email, write your name, the description of the position you want to apply</p>
+                    <div class="flex justify-center">
+                      <button class="mt-5 ml-3 lg:text-3xl font-S bg-white rounded-md text-P lg:px-4 px-2 py-2 hover:bg-purple-400 hover:text-white transition-all"><i class="fa-solid fa-upload"></i> Upload Your CV</button>
+                    </div>
+                </div>
+               </div>
+              </div>
+        </section>
+
+
+
+        <!-- sugestion -->
+
+        <section class="mt-20  font-S flex justify-center  items-center ">
+          <div class="w-8/12 bg-slate-100 grid lg:grid-cols-2 grid-cols-1 gap-x-10 p-5 rounded-2xl drop-shadow-xl">
+          <div class="ml-3">
+            <h1 class="lg:text-6xl text-2xl">Want to give</h1>
+              <h1 class="lg:text-6xl text-P text-2xl ">Any Suggestion?</h1>
+          </div>
+          <div>
+            <div>
+              <input type="text" class="lg:text-xl  md:text-xl rounded-md  p-2 lg:ml-5 sm:ml-5 ml-1" placeholder="Suggestion">
+               <button class="lg:text-2xl px-6  rounded-md font-S text-P text-center border-2 border-P  mt-5  hover:bg-P hover:text-white transition-all ml-4 ">Submit</button>
+            </div>
+          </div>
+        </div>
+        </section>
+<!-- footer -->
+        <footer class="mt-20 font-S bg-slate-100">
+           <div >
+            <nav class="border-P border-b-4  ">
+              <ul class="lg:flex gap-24 w-full justify-center pt-20 mb-5 lg:mb-20 px-5 lg:text-3xl">
+                <li class="text-4xl hover:text-P transition-all">Quic <span class="text-P">Solution</span><a href=""></a></li>
+                <li class="hover:text-P transition-all" >About<a href=""></a></li>
+                <li class="hover:text-P transition-all">Jobs<a href=""></a></li>
+                <li class="hover:text-P transition-all">Contact Us<a href=""></a></li>
+                <li class="hover:text-P transition-all">Terms<a href=""></a></li>
+                <li class="hover:text-P transition-all">Privacy Policy<a href=""></a></li>
+              </ul>
+            
+            </nav>
+            <p class="text-xl text-P p-5 text-center">
+               @QuickSolutionBySayid ALL Right Reserved
+           </p>
+           </div>
+        </footer>
+    </main>
+         
+    
+</body>
+</html>
